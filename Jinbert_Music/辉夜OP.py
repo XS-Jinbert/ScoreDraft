@@ -85,54 +85,36 @@ seq_second += [BL(24), so(2, 24), la(3, 36), la(3, 12), re(4, 24), mi(4, 24), BL
 seq_frist += [Repeat(la(5, 24), 2), la(4, 48), mi(5, 48), la(4, 48)]
 seq_second += [BL(24), fa(2, 24), la(3, 36), la(3, 12), so(4, 24), la(4, 24), do(4, 24), re(4, 24)]
 # 第4节
-seq_GePing=[BL(ScoreDraft.TellDuration(seq_frist))]
-seq_GePing += [('o', mi(5, 48), 'la', mi(5, 48), 'mei', do(5, 48), 'mi', la(5, 24), 'si', so(5, 24))]
 seq_frist += [mi(5, 48), mi(5, 48), do(5, 48), la(5, 24), so(5, 24)]
 seq_second += [mi(3, 48), Repeat(BL(48), 3)]
 # ======================================================================================================================
 # 第5节
-seq_GePing += [('ta', la(5, 24), so(5, 24), la(5, 48),
-				BL(24), 'o', so(5, 24), 'mi', mi(5, 24), 'si', la(5, 24))]
 seq_frist += [la(5, 24), so(5, 24), la(5, 48), BL(24), so(5, 24), mi(5, 24), la(5, 24)]
 seq_second += [la(2, 24), BL(24), mi(4, 36), la(3, 12), so(2, 24), re(4, 24), BL(24), fa(2, 24)]
 # 第6节
-seq_GePing += [('ta', la(5, 24), so(5, 24), la(5, 48),
-				BL(24), 'qi', la(5, 24), 'le', ti(5, 24), 'san', do(5, 24), do(5, 24), )]
 seq_frist += [la(5, 24), so(5, 24), la(5, 48), BL(24), la(5, 24), ti(5, 24), do(5, 24)]
 seq_second += [fa(2, 24), fa(3, 24), do(4, 36), do(3, 12), fa(2, 24), mi(2, 24), BL(24), re(2, 24)]
 # 第7节
-seq_GePing += [('li', ti(5, 24), 'de', la(5, 24), 'hou', do(5, 24), do(5, 24),
-				'dou', ti(5, 24), 'shi', la(5, 24), 'zhen', re(5, 24), BL(24))]
 seq_frist += [do(5, 24), ti(5, 24), la(5, 24), do(5, 24), do(5, 24), ti(5, 24), la(5, 24), re(5, 24)]
 seq_second += [re(2, 24), re(3, 24), la(3, 36), la(2, 12), re(2, 24), mi(2, 24), fa(2, 24), mi(2, 24)]
 # 第8节
-seq_GePing += [('nan', do(5, 24), BL(24), 'ren', ti(5, 24),
-						BL(24), 'hu', la(5, 24), 'ta', ti(5, 24), 'li', ti(5, 24))]
 seq_frist += [BL(24), do(5, 24), BL(24), ti(5, 24), BL(24), la(5, 24), ti(5, 24), ti(5, 24)]
 seq_second += [BL(24), fa(2, 24), BL(24), so(2, 24), la(2, 24), mi(2, 24), so(2, 24), mi(2, 24)]
 # ======================================================================================================================
 # 第17节
-seq_GePing += [('ta', do(6, 24), 'kan', ti(5, 24), 'dao', la(5, 24), so(5, 24)),
-				BL(24), ('ao', so(5, 24), 'pu', mi(5, 24), 'mai', so(5, 24), so(5, 24))]
 seq_frist += [do(6, 24), ti(5, 24), la(5, 24), so(5, 24), BL(24), so(5, 24), mi(5, 24), so(5, 24)]
 seq_second += [fa(2, 24), fa(3, 24), do(4, 24), fa(2, 24), fa(2, 24), re(4, 24), mi(3, 24), mi(2, 24)]
 # 第18节
-seq_GePing += [('gei', la(5, 24), 'lao', ti(5, 12), la(5, 12), la(5, 24),
-				BL(24), 'la', la(5, 24), 'mie', so(5, 24), 'sou', la(5, 24), la(5, 24))]
 seq_frist += [BL(24), la(5, 24), ti(5, 12), la(5, 12), la(5, 24), BL(24), la(5, 24), so(5, 24), la(5, 24)]
 seq_second += [BL(24), mi(2, 24), BL(24), la(2, 24), la(2, 24), mi(3, 24), do(3, 24), re(3, 24)]
 # 第19节
-seq_GePing += [('la', la(5, 24), 'mie', so(5, 24), 'sou', la(5, 24),
-							la(5, 24), 'la', la(5, 24), 'mie', so(5, 24), 'sou', la(5, 24), la(5, 96))]
 seq_frist += [la(5, 24), la(5, 24), so(5, 24), la(5, 24), la(5, 24), la(5, 24), so(5, 24), la(5, 24)]
 seq_second += [re(3, 24), la(3, 24), re(4, 24), mi(3, 24), mi(3, 24), la(3, 24), ti(2, 24), la(2, 24)]
 # 第20节
-seq_GePing += [BL(96)]
 seq_frist += [la(5, 96), do(5, 24), BL(24), do(5, 24), BL(24)]
 seq_second += [la(2, 24), la(3, 24), mi(4, 12), so(4, 12), mi(4, 12), la(3, 12), la(2, 24), BL(24), la(2, 24), BL(24)]
 # ======================================================================================================================
 # 第21节
-seq_GePing += [BL(192)]
 seq_frist += [BL(48), BL(48), re(5, 24), re(5, 24), BL(24), mi(5, 24)]
 seq_second += [so(2, 48), so(3, 36), so(2, 12), so(3, 24), so(2, 24), BL(24), la(2, 24)]
 # 第22节
@@ -256,8 +238,6 @@ seq_second += [la(2, 24), la(3, 24), mi(4, 12), so(4, 12), mi(4, 12), la(3, 12)]
 
 doc.playNoteSeq(seq_frist, Piano, track_frist)
 doc.playNoteSeq(seq_second, Piano, track_second)
-
-doc.sing(seq_GePing, GePing, track_GePing)
 
 doc.setTrackVolume(track_GePing, 0.6)
 doc.setTrackVolume(track_frist, 0.4)
